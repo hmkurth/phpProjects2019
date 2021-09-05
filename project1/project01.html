@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>project01</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<h1>It's time to make a MadLib!</h1>
+<p>Fill Out the following form and we will output a story just for you!</p>
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <label for="noun">Enter a noun:</label>
+    <input type="text" id="noun" name="noun" /><br />
+    <label for="verb">Enter a verb:</label>
+    <input type="text" id="verb" name="verb" /><br />
+    <label for="adjective">Enter an adjective:</label>
+    <input type="text" id="adjective" name="adjective" /><br />
+    <label for="adverb">Enter an adverb:</label> 
+    <input type="text" id="adverb" name="adverb"/><br/>
+    <input type="submit" name="submit" value="submit" />
+  </form>
+
+
+
+
+
+
+</body>
+</html>
